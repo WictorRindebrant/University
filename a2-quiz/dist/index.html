@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Wice Quiz</title>
+  <script type="module" crossorigin src="/assets/index-Ji_QTc2i.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-r7J7dK4b.css">
+</head>
+
+<header>
+    <h1>Wice Quiz</h1>
+</header>
+
+<div id="startpage">
+
+    <body>
+        <main>
+            <label for="nickname">Enter your nickname:</label><br>
+            <input type="text" id="nickname"><br>
+            <button id="startbutton">Start Quiz</button>
+        </main>
+
+    </body>
+</div>
+
+<div id="questionpage">
+
+    <body>
+        <main>
+            <h3 id="questionheader">Question:</h3>
+            <p id="question"></p>
+            <div id="answerinput">
+                <input type="text">
+            </div>
+            <button id="answerbutton">Answer</button>
+        </main>
+
+    </body>
+</div>
+
+<div id="loserpage">
+
+    <body>
+        <main>
+            <h3>YOU LOST, Better luck next time</h3>
+            <button id="againbuttonlose">Try Again</button>
+        </main>
+
+    </body>
+</div>
+
+<div id="winnerpage">
+
+    <body>
+        <main>
+            <h3>Congratulations, YOU WON!</h3>
+            <p id="winnername">Well done ...</p>
+            <p id="winnertime">Your time was: </p>
+            <button id="againbuttonwin">Go Again</button>
+        </main>
+
+    </body>
+</div>
+
+<div id="progresspage">
+    <label id="progresslabel" for="progressbar">Time remaining:</label><br>
+    <progress id="progressbar" max="100" value="100"></progress>
+</div>
+
+<div id="scoreboard">
+
+    <body>
+        <main id="scoreboardmain">
+            <h3>Scoreboard</h3>
+            <p>1. </p>
+            <p>2. </p>
+        </main>
+
+    </body>
+</div>
+
+
+</html>
