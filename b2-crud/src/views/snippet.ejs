@@ -1,0 +1,54 @@
+<div class='snippet' id="<%= snippet.id %>">
+  <div class='snippetheader'>
+    <p id='authorname'>
+      User: <%= snippet.user %>
+    </p>
+    <h1 id='snippetname'>
+      <%= snippet.title %>
+    </h1>
+    <% if (user) {%>
+      <% if (user.username===snippet.user) {%>
+
+        <button onclick="toggleEditMode('<%= snippet.id %>')" class="toggleEditMode"
+          id='toggleEditMode<%= snippet.id %>' name="editButton">Edit</button>
+
+        <form method='post' action='/snippets/save' id="updateCode<%= snippet.id %>">
+          <input type="hidden" id="snippetId<%= snippet.id %>" name="snippetId" value="<%= snippet.id %>">
+          <input type="hidden" id="snippetCode<%= snippet.id %>" name="snippetCode">
+        </form>
+
+        <form method='post' action='/snippets/delete'>
+          <input type="hidden" name="snippetId" value="<%= snippet.id %>">
+          <button type="submit" class='deletesnippetbutton'>Delete</button>
+        </form>
+        </nav>
+        <% } %>
+          <% } %>
+  </div>
+  <div class=code>
+    <textarea readonly class="codearea" id="codearea<%= snippet.id %>" spellcheck="false"><%= snippet.code %></textarea>
+  </div>
+</div>
+
+<script>
+  function toggleEditMode(id) {
+    var button = document.querySelector('#toggleEditMode' + id)
+    if (button.textContent === "Save") {
+      // What happens when pressing Save:
+      button.textContent = "Edit";
+      document.getElementById("codearea" + id).readOnly = true;
+      const code = document.getElementById("codearea" + id).value
+      updateCode(id, code)
+    } else {
+      // What happens when pressing Edit:
+      button.textContent = "Save";
+      document.getElementById("codearea" + id).readOnly = false;
+    }
+  }
+
+  function updateCode(id, code) {
+    document.getElementById("id" + id)
+    document.getElementById("snippetCode" + id).value = code
+    document.getElementById("updateCode" + id).submit()
+  }
+</script>

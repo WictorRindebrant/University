@@ -1,0 +1,22 @@
+<%- include('header') -%>
+
+  <h1 class='newsnippeth1'>The New Snippet Page</h1>
+
+  <div>
+    <form method='post' action='/snippets/newsnippet'>
+      <div class='titlenewsnippetdiv'>
+        <label for="titleinput" class="titlelabel" id='titlelabel'>Title of the code:</label>
+        <input type="text" class="titleinput" id="titleinput" name="snippetTitle" value="<%= snippetTitle %>">
+      </div>
+
+      <div class='codenewsnippetdiv'>
+        <label for="codeinput" class="codelabel" id='codelabel'>The code:</label>
+        <textarea class="codeinput" id="codeinput" spellcheck="false" name="snippetCode"
+          value="<%= snippetCode %>"></textarea>
+      </div>
+
+      <button type="submit" class='newsnippetbutton'>Create</button>
+    </form>
+  </div>
+
+  <%- include('flashMessage') -%>
