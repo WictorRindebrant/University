@@ -1,0 +1,21 @@
+Name,Lastname,Customer_number,Phone_number,Adress,Shipping time in days,Pwo_name,Quantity,Re_seller,Country,Community
+Simon,Skogsmo,1,74112112,Svampskogsvägen 83,3,Gaam Candy series P.W.R,1,proteinbolaget,Sweden(+46),Ljusdal
+Simon,Skogsmo,1,74112112,Svampskogsvägen 83,3,Aware Nutrition PWO,1,proteinbolaget,Sweden(+46),Ljusdal
+Simon,Skogsmo,1,74112112,Svampskogsvägen 83,3,Delta Nutrition Supreme PWO,1,proteinbolaget,Sweden(+46),Ljusdal
+Simon,Skogsmo,1,74112112,Svampskogsvägen 83,3,Gaam PUMP,1,proteinbolaget,Sweden(+46),Ljusdal
+Wictor,Varg,2,76332332,Kantarellstigen 94,4,WellAware PWO pulver ,1,proteinbolaget,Sweden(+46),Växjö
+Wictor,Varg,2,76332332,Kantarellstigen 94,4,SSN Alpha Pump,1,SSN,Sweden(+46),Växjö
+Wictor,Varg,2,76332332,Kantarellstigen 94,4,Aware Nutrition PWO,1,Tillskottsbolaget,Sweden(+46),Växjö
+Victor,Steger,3,70555555,Rindvägen 39,5,Gaam Candy series P.W.R,4,Träningsmaskiner,Sweden(+46),Gotland
+Jonathan,Hed,4,78444444,Gråhundsvägen 12,2,Rich Piana Nutrition Legendary,1,CDON,Sweden(+46),Lund
+Jonathan,Hed,4,78444444,Gråhundsvägen 12,2,Gaam Candy series P.W.R,1,CDON,Sweden(+46),Lund
+Alexander,Rindebrant,5,71999999,Knallvägen 21,3,Self Omninutrition Inject PWO,1,Atletbutiken,Sweden(+46),Täby
+Alexander,Rindebrant,5,71999999,Knallvägen 21,3,WellAware PWO pulver ,1,Appotea,Sweden(+46),Täby
+Daniel,Cahling,6,73112211,Blåkullastigen 8,3,PULS Nutrition Pre Workout,1,Träningsmaskiner,Sweden(+46),Borlänge
+Daniel,Cahling,6,73112211,Blåkullastigen 8,3,Womens best Pre Workout Booster,1,Womens best,Sweden(+46),Borlänge
+Daniel,Cahling,6,73112211,Blåkullastigen 8,3,WellAware PWO pulver,1,Wellaware,Sweden(+46),Borlänge
+Tim,Lindgren,7,76336336,Kattstigen 66,4,SSN Alpha Pump,1,Tillskottsbolaget,Sweden(+46),Österåker
+Tim,Lindgren,7,76336336,Kattstigen 66,4,SSN Awaken,1,Tillskottsbolaget,Sweden(+46),Österåker
+Tim,Lindgren,7,76336336,Kattstigen 66,4,FAST Sport Nutrition Prework,1,Träningsmaskiner,Sweden(+46),Österåker
+Tim,Lindgren,7,76336336,Kattstigen 66,4,SSN Awaken,1,SSN,Sweden(+46),Österåker
+Tim,Lindgren,7,76336336,Kattstigen 66,4,SSN Alpha Pump,1,SSN,Sweden(+46),Österåker

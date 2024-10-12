@@ -1,0 +1,11 @@
+stages:
+  - AiDetection
+  - Test
+
+ai detector:
+  stage: AiDetection
+  image: python:3.12.2
+  script:
+    - pip install requests
+    - python ai-detection-code/main.py $COPYLEAKS_KEY $COPYLEAKS_EMAIL
+  allow_failure: true

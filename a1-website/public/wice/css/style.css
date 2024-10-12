@@ -1,0 +1,229 @@
+/*Wictor Rindebrant*/
+
+body header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 1000px;
+    color: rgb(255, 0, 0);
+    background-color: #000000;
+    padding: 1em;
+    padding-bottom: 1em;
+    overflow: auto;
+}
+
+body header {
+    padding-bottom: 0em;
+}
+
+header img {
+    float: right;
+}
+
+#pages {
+    word-spacing: 100px;
+    padding: 0.5em;
+    border-top: 4px double rgb(255, 0, 0);
+    border-bottom: 4px double rgb(255, 0, 0);
+}
+
+a {
+    color: rgb(0, 119, 255);
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    border-top: 1px solid rgb(255, 0, 0);
+}
+
+@media only screen and (max-width:390px) {
+    header div {
+        flex-direction: column;
+    }
+
+    header img {
+        float: left;
+        flex-direction: column;
+    }
+}
+
+/*---- Footer -----*/
+
+.firstRow {
+    width: 33%;
+    float: left
+}
+
+.secondRow {
+    width: 33%;
+    float: left
+}
+
+.thirdRow {
+    width: 33%;
+    float: left
+}
+
+@media only screen and (max-width:980px) {
+    .firstRow {
+        width: 98%;
+        flex-direction: column;
+    }
+    
+    .secondRow {
+        width: 98%;
+        flex-direction: column;
+    }
+    
+    .thirdRow {
+        width: 98%;
+        flex-direction: column;
+    }
+}
+
+/*---- page.html -----*/
+
+.lk,
+.midgaard {
+    float: left;
+    padding-right: 1em;
+    margin-left: -4%;
+}
+
+.wice {
+    float: left;
+    padding-right: 1%;
+}
+
+.theLichKing footer {
+    width: 350px;
+    float: left;
+    padding: 0%;
+    margin-top: 15px;
+    padding-bottom: 1.2%;
+    border: 1px solid red;
+}
+
+.midgaard {
+    width: 90%;
+}
+
+/*---- typography.html -----*/
+
+.layout h1,
+.layout h2,
+.layout h3,
+.layout h4,
+.layout h5,
+.layout h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.layout p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*---- form.html -----*/
+main form input {
+    width: 20%;
+    height: 10%;
+    margin-bottom: 1%;
+}
+
+main form select {
+    width: 20.8%;
+    margin-bottom: 1%;
+}
+
+main form #submit {
+    width: 8%;
+    padding-top: 2;
+}
+
+
+/*---- about.html -----*/
+.aboutMainSide {
+    width: 60%;
+    float: left;
+    padding: 1%;
+    padding-top: 0%;
+    border: 1px solid red;
+}
+
+.aboutAside {
+    width: 22%;
+    float: right;
+    padding: 1%;
+    padding-top: 0%;
+    border: 1px solid red;
+}
+
+.search,
+.website {
+    margin-left: -6%;
+    float: left;
+    padding-right: 1%;
+}
+
+@media only screen and (max-width:420px) {
+    .aboutMainSide {
+        width: 98%;
+        flex-direction: column;
+    }
+    
+    .aboutAside {
+        width: 98%;
+        flex-direction: column;
+        float: left;
+    }
+
+}
+
+/*---- column3.html -----*/
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.column {
+    float: left;
+    padding: 1%;
+    margin: 0.5%;
+    border: 1px solid red;
+}
+
+.left {
+    width: 15%;
+    text-align: left;
+}
+
+.right {
+    width: 15%;
+    text-align: right;
+}
+
+.middle {
+    width: 60%;
+    text-align: center;
+}
+
+@media only screen and (max-width:700px) {
+    .row {
+        flex-direction: column;
+    }
+    .left {
+        width: 98%;
+    }
+    
+    .right {
+        width: 98%;
+    }
+    
+    .middle {
+        width: 98%;
+    }
+}

@@ -1,0 +1,27 @@
+<%- include('header') -%>
+
+  <h1 class='homeh1' name="projectID" value="<%= projectID %>"><%= projectName %> (<%= projectID %>)</h1>
+  <%- include('flashMessage') -%>
+  <div>
+    <p id="projectIssueText">The projects ISSUES:</p>
+  </div>
+
+  <div id="issues">
+  </div>
+
+  <script>
+    const projectName = "<%= projectName %>"
+    const projectId = "<%= projectID %>"
+    const titleArray = "<%= titleArray %>"
+    const idArray = "<%= idArray %>"
+    const descriptionArray = "<%= descriptionArray %>"
+    const stateArray = "<%= stateArray %>"
+    const createdArray = "<%= createdArray %>"
+    const updatedArray = "<%= updatedArray %>"
+    const labelsArray = "<%= labelsArray %>"
+    const milestoneArray = "<%= milestoneArray %>"
+    const authorArray = "<%= authorArray %>"
+
+  </script>
+  <script type="module" src="/views/js/project.js"></script>
+  <script type="module" src="/views/js/websocket.js"></script>

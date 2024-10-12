@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeQualityTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-25T15:32:57" hostname="DESKTOP-16F2QEC" time="0.054">
+  <properties/>
+  <testcase name="codeQuality()" classname="CodeQualityTests" time="0.054"/>
+  <system-out><![CDATA[0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/controller/App.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/controller/Menu.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Contract.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Game.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/ItemObject.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Loader.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Manager.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Member.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Other.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Sport.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Tool.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Toy.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/model/Vehicel.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/ContractEngView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/ContractInterfaceView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/ContractSweView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/ItemEngView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/ItemInterfaceView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/ItemSweView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/MemberEngView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/MemberInterfaceView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/MemberSweView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/MenuEngView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/MenuInterfaceView.java
+0 CheckStyle Issues in C:/Users/wicea/OneDrive/Dokument/1DV607/a2/app/src/main/java/view/MenuSweView.java
+0 FindBugs Issues in view/MenuSweView.java
+0 FindBugs Issues in view/ItemSweView.java
+0 FindBugs Issues in view/MemberEngView.java
+0 FindBugs Issues in model/ItemObject.java
+0 FindBugs Issues in view/MemberSweView.java
+0 FindBugs Issues in view/ContractEngView.java
+0 FindBugs Issues in view/MemberInterfaceView.java
+0 FindBugs Issues in controller/Menu.java
+0 FindBugs Issues in model/Vehicel.java
+0 FindBugs Issues in view/ContractInterfaceView.java
+0 FindBugs Issues in view/MenuInterfaceView.java
+0 FindBugs Issues in controller/App.java
+0 FindBugs Issues in view/ItemEngView.java
+0 FindBugs Issues in model/Game.java
+0 FindBugs Issues in model/Contract.java
+0 FindBugs Issues in view/ItemInterfaceView.java
+0 FindBugs Issues in model/Toy.java
+0 FindBugs Issues in model/Member.java
+0 FindBugs Issues in model/Tool.java
+0 FindBugs Issues in model/Loader.java
+0 FindBugs Issues in view/MenuEngView.java
+0 FindBugs Issues in model/Sport.java
+0 FindBugs Issues in view/ContractSweView.java
+0 FindBugs Issues in model/Other.java
+0 FindBugs Issues in model/Manager.java
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

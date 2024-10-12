@@ -1,0 +1,17 @@
+<%- include('header') -%>
+
+  <h1 class='gith1'>The Git Page</h1>
+  <%- include('flashMessage') -%>
+  <div>
+    <p>All the Projects:</p>
+  </div>
+
+  <div id="projects">
+  </div>
+
+  <script>
+    const idArray = "<%= idArray %>"
+    const nameArray = "<%= nameArray %>"
+  </script>
+  <script type="module" src="/views/js/projects.js"></script>
+  <script type="module" src="/views/js/websocket.js"></script>

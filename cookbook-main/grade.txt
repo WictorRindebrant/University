@@ -1,0 +1,13 @@
+Had a bit of a unique style, some stuff was more thought out than others. Layout was 
+restricted by their "book" design that they stuck with for the rest of the project.
+
+A bit rough, but it does work fairly well. Help page was a little wonky but functional.
+Codebase is looking fairly decent, gitlab management is acceptable. Merging was apperently 
+a mess since people went off on their own and worked a little too much without consulting 
+other members.
+
+Group dynamics appear to be pretty bad among some of them. Group was generally self-running 
+though, even with the internal struggles it appears everyone participated in a farily decent 
+fashion. 
+
+Overall: D

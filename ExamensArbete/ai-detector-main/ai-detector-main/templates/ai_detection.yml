@@ -1,0 +1,17 @@
+spec:
+  inputs:
+    stage:
+      default: test
+---
+ai-detection:
+  image: python:3.12.2
+  before_script:
+    - pip install requests
+  script:
+    - python ai-detection-code/ai_detection_tool_wr_ep_main.py $COPYLEAKS_KEY $COPYLEAKS_EMAIL
+  stage: $[[ inputs.stage ]]
+  allow_failure: true
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

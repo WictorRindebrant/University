@@ -1,0 +1,4 @@
+include:
+  - component: gitlab.com/wrindebrant/ai-detector/ai_detection@1.0.0
+    inputs:
+      stage: build

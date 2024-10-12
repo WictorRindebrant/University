@@ -1,0 +1,16 @@
+/* Wictor Rindebrant */
+
+body {
+    display: flex;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    background-image: url(../img/desktop/wallpaper.jpg);
+    background-size: cover;
+}
+
+#desktop {
+    position: absolute;
+    width: 100%;
+    height: 92.9%;
+    overflow: hidden;
+}

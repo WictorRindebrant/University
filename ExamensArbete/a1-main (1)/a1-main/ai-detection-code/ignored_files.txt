@@ -1,0 +1,6 @@
+ai_detection_tool_wr_ep_info.py
+ai_detection_tool_wr_ep_login.py
+ai_detection_tool_wr_ep_main.py
+ai_detection_tool_wr_ep_print_result.py
+ai_detection_tool_wr_ep_read_file.py
+ai_detection_tool_wr_ep_send.py

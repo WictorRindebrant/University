@@ -1,0 +1,21 @@
+<%- include('header') -%>
+
+  <h1 class='loginh1'>The Login Page</h1>
+
+  <div>
+    <form method='post' action='/login'>
+      <div id='usernamediv'>
+        <label for="usernameinput" id='usernamelabel'>Username:</label>
+        <input type="text" id="usernameinput" name="username" value="<%= username %>">
+      </div>
+
+      <div id='passworddiv'>
+        <label for="passwordinput" id='passwordlabel'>Password:</label>
+        <input type="password" id="passwordinput" name="password" value="<%= password %>">
+      </div>
+
+      <button type='submit' class='loginbutton'>Login</button>
+    </form>
+  </div>
+
+  <%- include('flashMessage') -%>
